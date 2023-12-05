@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031CE2E32B1EFC5D002EC3CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE2E22B1EFC5D002EC3CF /* AppDelegate.swift */; };
+		031CE2E52B1EFC5D002EC3CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE2E42B1EFC5D002EC3CF /* SceneDelegate.swift */; };
+		031CE2E72B1EFC5D002EC3CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE2E62B1EFC5D002EC3CF /* ViewController.swift */; };
+		031CE2EA2B1EFC5D002EC3CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031CE2E82B1EFC5D002EC3CF /* Main.storyboard */; };
+		031CE2EC2B1EFC60002EC3CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031CE2EB2B1EFC60002EC3CF /* Assets.xcassets */; };
+		031CE2EF2B1EFC60002EC3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031CE2ED2B1EFC60002EC3CF /* LaunchScreen.storyboard */; };
+		031CE2F72B1EFF8C002EC3CF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE2F62B1EFF8C002EC3CF /* Car.swift */; };
+		031CE2F92B1F0089002EC3CF /* CarType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE2F82B1F0089002EC3CF /* CarType.swift */; };
+		031CE2FB2B1F013A002EC3CF /* FuelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE2FA2B1F013A002EC3CF /* FuelType.swift */; };
+		031CE2FE2B1F0329002EC3CF /* GearboxType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE2FD2B1F0329002EC3CF /* GearboxType.swift */; };
+		031CE3002B1F071E002EC3CF /* Harvester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE2FF2B1F071E002EC3CF /* Harvester.swift */; };
+		031CE3022B1F0D25002EC3CF /* RefuelingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE3012B1F0D25002EC3CF /* RefuelingProtocol.swift */; };
+		031CE3042B1F0D80002EC3CF /* RefuelingStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE3032B1F0D80002EC3CF /* RefuelingStation.swift */; };
+		031CE3062B1F0F15002EC3CF /* SportCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE3052B1F0F15002EC3CF /* SportCar.swift */; };
+		031CE3082B1F24AA002EC3CF /* WashType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE3072B1F24AA002EC3CF /* WashType.swift */; };
+		031CE30A2B1F257F002EC3CF /* CarWashStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE3092B1F257F002EC3CF /* CarWashStation.swift */; };
+		031CE30C2B1F2597002EC3CF /* CarWashProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE30B2B1F2597002EC3CF /* CarWashProtocol.swift */; };
+		031CE30E2B1F2775002EC3CF /* ServiceStationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE30D2B1F2775002EC3CF /* ServiceStationType.swift */; };
+		031CE3102B1F28D1002EC3CF /* ServiceStationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE30F2B1F28D1002EC3CF /* ServiceStationProtocol.swift */; };
+		031CE3132B1F2904002EC3CF /* ServiceStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CE3122B1F2904002EC3CF /* ServiceStation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		031CE2DF2B1EFC5D002EC3CF /* Solid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		031CE2E22B1EFC5D002EC3CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		031CE2E42B1EFC5D002EC3CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		031CE2E62B1EFC5D002EC3CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		031CE2E92B1EFC5D002EC3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		031CE2EB2B1EFC60002EC3CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		031CE2EE2B1EFC60002EC3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		031CE2F02B1EFC60002EC3CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031CE2F62B1EFF8C002EC3CF /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		031CE2F82B1F0089002EC3CF /* CarType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarType.swift; sourceTree = "<group>"; };
+		031CE2FA2B1F013A002EC3CF /* FuelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelType.swift; sourceTree = "<group>"; };
+		031CE2FD2B1F0329002EC3CF /* GearboxType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearboxType.swift; sourceTree = "<group>"; };
+		031CE2FF2B1F071E002EC3CF /* Harvester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harvester.swift; sourceTree = "<group>"; };
+		031CE3012B1F0D25002EC3CF /* RefuelingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefuelingProtocol.swift; sourceTree = "<group>"; };
+		031CE3032B1F0D80002EC3CF /* RefuelingStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefuelingStation.swift; sourceTree = "<group>"; };
+		031CE3052B1F0F15002EC3CF /* SportCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCar.swift; sourceTree = "<group>"; };
+		031CE3072B1F24AA002EC3CF /* WashType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashType.swift; sourceTree = "<group>"; };
+		031CE3092B1F257F002EC3CF /* CarWashStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashStation.swift; sourceTree = "<group>"; };
+		031CE30B2B1F2597002EC3CF /* CarWashProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashProtocol.swift; sourceTree = "<group>"; };
+		031CE30D2B1F2775002EC3CF /* ServiceStationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStationType.swift; sourceTree = "<group>"; };
+		031CE30F2B1F28D1002EC3CF /* ServiceStationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStationProtocol.swift; sourceTree = "<group>"; };
+		031CE3122B1F2904002EC3CF /* ServiceStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		031CE2DC2B1EFC5D002EC3CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030C6C142B1F2A1700C22636 /* CarModel */ = {
+			isa = PBXGroup;
+			children = (
+				031CE2F62B1EFF8C002EC3CF /* Car.swift */,
+				031CE2FF2B1F071E002EC3CF /* Harvester.swift */,
+				031CE3052B1F0F15002EC3CF /* SportCar.swift */,
+			);
+			path = CarModel;
+			sourceTree = "<group>";
+		};
+		031CE2D62B1EFC5D002EC3CF = {
+			isa = PBXGroup;
+			children = (
+				031CE2E12B1EFC5D002EC3CF /* Solid */,
+				031CE2E02B1EFC5D002EC3CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		031CE2E02B1EFC5D002EC3CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				031CE2DF2B1EFC5D002EC3CF /* Solid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		031CE2E12B1EFC5D002EC3CF /* Solid */ = {
+			isa = PBXGroup;
+			children = (
+				031CE2E22B1EFC5D002EC3CF /* AppDelegate.swift */,
+				031CE2E42B1EFC5D002EC3CF /* SceneDelegate.swift */,
+				031CE3112B1F28D7002EC3CF /* Protocol */,
+				030C6C142B1F2A1700C22636 /* CarModel */,
+				031CE3142B1F2946002EC3CF /* AutoStation */,
+				031CE2E62B1EFC5D002EC3CF /* ViewController.swift */,
+				031CE2FC2B1F015E002EC3CF /* EnumCarType */,
+				031CE2E82B1EFC5D002EC3CF /* Main.storyboard */,
+				031CE2EB2B1EFC60002EC3CF /* Assets.xcassets */,
+				031CE2ED2B1EFC60002EC3CF /* LaunchScreen.storyboard */,
+				031CE2F02B1EFC60002EC3CF /* Info.plist */,
+			);
+			path = Solid;
+			sourceTree = "<group>";
+		};
+		031CE2FC2B1F015E002EC3CF /* EnumCarType */ = {
+			isa = PBXGroup;
+			children = (
+				031CE2FA2B1F013A002EC3CF /* FuelType.swift */,
+				031CE2F82B1F0089002EC3CF /* CarType.swift */,
+				031CE2FD2B1F0329002EC3CF /* GearboxType.swift */,
+				031CE3072B1F24AA002EC3CF /* WashType.swift */,
+				031CE30D2B1F2775002EC3CF /* ServiceStationType.swift */,
+			);
+			path = EnumCarType;
+			sourceTree = "<group>";
+		};
+		031CE3112B1F28D7002EC3CF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				031CE30B2B1F2597002EC3CF /* CarWashProtocol.swift */,
+				031CE3012B1F0D25002EC3CF /* RefuelingProtocol.swift */,
+				031CE30F2B1F28D1002EC3CF /* ServiceStationProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		031CE3142B1F2946002EC3CF /* AutoStation */ = {
+			isa = PBXGroup;
+			children = (
+				031CE3092B1F257F002EC3CF /* CarWashStation.swift */,
+				031CE3032B1F0D80002EC3CF /* RefuelingStation.swift */,
+				031CE3122B1F2904002EC3CF /* ServiceStation.swift */,
+			);
+			path = AutoStation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		031CE2DE2B1EFC5D002EC3CF /* Solid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031CE2F32B1EFC60002EC3CF /* Build configuration list for PBXNativeTarget "Solid" */;
+			buildPhases = (
+				031CE2DB2B1EFC5D002EC3CF /* Sources */,
+				031CE2DC2B1EFC5D002EC3CF /* Frameworks */,
+				031CE2DD2B1EFC5D002EC3CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solid;
+			productName = Solid;
+			productReference = 031CE2DF2B1EFC5D002EC3CF /* Solid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		031CE2D72B1EFC5D002EC3CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					031CE2DE2B1EFC5D002EC3CF = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 031CE2DA2B1EFC5D002EC3CF /* Build configuration list for PBXProject "Solid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 031CE2D62B1EFC5D002EC3CF;
+			productRefGroup = 031CE2E02B1EFC5D002EC3CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				031CE2DE2B1EFC5D002EC3CF /* Solid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		031CE2DD2B1EFC5D002EC3CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031CE2EF2B1EFC60002EC3CF /* LaunchScreen.storyboard in Resources */,
+				031CE2EC2B1EFC60002EC3CF /* Assets.xcassets in Resources */,
+				031CE2EA2B1EFC5D002EC3CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031CE2DB2B1EFC5D002EC3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031CE30A2B1F257F002EC3CF /* CarWashStation.swift in Sources */,
+				031CE2F92B1F0089002EC3CF /* CarType.swift in Sources */,
+				031CE2FE2B1F0329002EC3CF /* GearboxType.swift in Sources */,
+				031CE30C2B1F2597002EC3CF /* CarWashProtocol.swift in Sources */,
+				031CE30E2B1F2775002EC3CF /* ServiceStationType.swift in Sources */,
+				031CE3082B1F24AA002EC3CF /* WashType.swift in Sources */,
+				031CE2E72B1EFC5D002EC3CF /* ViewController.swift in Sources */,
+				031CE3132B1F2904002EC3CF /* ServiceStation.swift in Sources */,
+				031CE2E32B1EFC5D002EC3CF /* AppDelegate.swift in Sources */,
+				031CE2F72B1EFF8C002EC3CF /* Car.swift in Sources */,
+				031CE2E52B1EFC5D002EC3CF /* SceneDelegate.swift in Sources */,
+				031CE3042B1F0D80002EC3CF /* RefuelingStation.swift in Sources */,
+				031CE3002B1F071E002EC3CF /* Harvester.swift in Sources */,
+				031CE3102B1F28D1002EC3CF /* ServiceStationProtocol.swift in Sources */,
+				031CE3062B1F0F15002EC3CF /* SportCar.swift in Sources */,
+				031CE3022B1F0D25002EC3CF /* RefuelingProtocol.swift in Sources */,
+				031CE2FB2B1F013A002EC3CF /* FuelType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		031CE2E82B1EFC5D002EC3CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031CE2E92B1EFC5D002EC3CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		031CE2ED2B1EFC60002EC3CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031CE2EE2B1EFC60002EC3CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		031CE2F12B1EFC60002EC3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		031CE2F22B1EFC60002EC3CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		031CE2F42B1EFC60002EC3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27HNUHGL83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Solid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mihail.chertov-gmail.com.Solid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		031CE2F52B1EFC60002EC3CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27HNUHGL83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Solid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mihail.chertov-gmail.com.Solid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031CE2DA2B1EFC5D002EC3CF /* Build configuration list for PBXProject "Solid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031CE2F12B1EFC60002EC3CF /* Debug */,
+				031CE2F22B1EFC60002EC3CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		031CE2F32B1EFC60002EC3CF /* Build configuration list for PBXNativeTarget "Solid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031CE2F42B1EFC60002EC3CF /* Debug */,
+				031CE2F52B1EFC60002EC3CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 031CE2D72B1EFC5D002EC3CF /* Project object */;
+}
